@@ -2,9 +2,9 @@
 
 final class TemplateParams {}
 
-final class PokemonParams {
+final class PokeParams {
   final String id;
-  const PokemonParams({
+  const PokeParams({
     required this.id,
   });
 }

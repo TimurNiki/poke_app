@@ -1,13 +1,11 @@
-abstract class AppStrings {
-  static const String kTemplate = 'template';
-  static const String kName = 'name';
-  static const String kId = 'id';
-  static const String kSprites = 'sprites';
-  static const String kTypes = 'types';
-  static const String kType = 'type';
-  static const String kOther = 'other';
-  static const String kOfficialArtwork = 'official-artwork';
-  static const String kFrontDefault = 'front_default';
-  static const String kFrontShiny = 'front_shiny';
-  static const int maxPokemonId = 1008;
-}
+const String kTemplate = 'template';
+const String kName = 'name';
+const String kId = 'id';
+const String kSprites = 'sprites';
+const String kTypes = 'types';
+const String kType = 'type';
+const String kOther = 'other';
+const String kOfficialArtwork = 'official-artwork';
+const String kFrontDefault = 'front_default';
+const String kFrontShiny = 'front_shiny';
+const int maxPokemonId = 1008;

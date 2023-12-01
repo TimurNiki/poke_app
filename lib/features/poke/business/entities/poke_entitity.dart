@@ -1,6 +1,6 @@
 import 'sub_entities.dart';
 
-final class PokeEntity{
+ abstract class PokeEntity{
   final String name;
   final int id;
   final SpritesEntity sprites;

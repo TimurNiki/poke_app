@@ -1,32 +1,38 @@
-final class SpritesEntity {
+//! Sprites
+
+class SpritesEntity {
   final OtherEntity other;
-
-  SpritesEntity(this.other);
+  const SpritesEntity({
+    required this.other,
+  });
 }
 
-final class OtherEntity {
-  final OfficialArtEntity officialArt;
-
-  OtherEntity(this.officialArt);
+class OtherEntity {
+  final OfficialArtworkEntity officialArtwork;
+  const OtherEntity({
+    required this.officialArtwork,
+  });
 }
 
-final class OfficialArtEntity {
+class OfficialArtworkEntity {
   final String frontDefault;
   final String frontShiny;
-  const OfficialArtEntity({
+  const OfficialArtworkEntity({
     required this.frontDefault,
     required this.frontShiny,
   });
 }
 
-final class TypesEntity {
+//! Types
+
+class TypesEntity {
   final TypeEntity type;
   const TypesEntity({
     required this.type,
   });
 }
 
-final class TypeEntity {
+class TypeEntity {
   final String name;
   const TypeEntity({
     required this.name,
